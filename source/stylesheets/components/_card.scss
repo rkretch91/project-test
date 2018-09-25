@@ -1,0 +1,46 @@
+.image-name {
+  width: 300px;
+  margin: 0 auto;
+  img {
+  height: 100px;
+  }
+}
+
+.description {
+  width: 300px;
+  text-align: left;
+  border-radius: 20px;
+  margin: 0 auto;
+  p {
+    font-size: 15px;
+  }
+
+}
+
+.what-is-it {
+  background-color: rgba(86, 86, 86, .2);
+  padding: 5px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.who-is-it-for {
+  background-color: rgb(242,242,242);
+  padding: 5px 10px;
+}
+
+.benefits {
+  background-color: rgba(86, 86, 86, .2);
+  padding: 5px 10px 30px 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.link-card {
+  font-size: 10px;
+  color: #1b1464;
+}
+
+.call-to-action {
+  text-align: center;
+}

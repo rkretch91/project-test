@@ -1,0 +1,9 @@
+.btn-cta {
+  background: linear-gradient(90deg, #2e3192, #f97900);
+  color: white !important;
+  padding: 7px 10px;
+  border-radius: 20px;
+  &:hover {
+    opacity: .8;
+  }
+}
