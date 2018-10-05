@@ -18,11 +18,142 @@
 
 .program-explanation {
   background-color: white;
-  height: 200vh;
+  height: 100%;
+  padding-bottom: 60px;
   color: #565656;
   text-align: center;
   h3 {
     margin-top: 0px;
     padding-top: 30px;
   }
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: 33.3333% 33.3333% auto;
+  grid-template-rows: auto auto;
+  background-color: #6e3877;
+}
+
+.testimonial-one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.testimonial-two {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.testimonial-title {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-text {
+  color: white;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+}
+
+.testimonial-button {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-testimonial {
+  background-color: #6e3877;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  &:hover {
+    background-color: white;
+    color: #6e3877;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto 200px 100px;
+  }
+  .testimonial-title {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+  .testimonial-one {
+    grid-row: 2 / 3;
+  }
+  .testimonial-text {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+  }
+  .testimonial-two {
+    display: none;
+  }
+  .testimonial-button {
+    grid-row: 4 / 5;
+  }
+}
+
+.blog-home {
+  background-color: white;
+  height: 100%;
+  padding-bottom: 60px;
+  color: #565656;
+  text-align: center;
+  h3 {
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+}
+
+.subscribe-newsletter-banner {
+  background-color: #6e3877;
+  text-align: center;
+  padding-bottom: 20px;
+  h3 {
+    color: white;
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+
+}
+
+#email-form {
+  width: 300px;
+  border-radius: 7px;
+  margin-bottom: 5px;
+  border: none;
+}
+
+
+input {
+  font-size: 12px;
+  padding: 5px 10px;
 }

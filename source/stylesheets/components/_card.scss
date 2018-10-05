@@ -44,3 +44,29 @@
 .call-to-action {
   text-align: center;
 }
+
+.reading-cards {
+  width: 220px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.reading-image {
+  width: 210px;
+  max-height: auto;
+  border-radius: 10px;
+}
+
+.reading-title {
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.reading-text {
+  font-size: 15px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
